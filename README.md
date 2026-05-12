@@ -1,8 +1,4 @@
-Since your library is now successfully published to Maven Central, you need a professional `README.md` that tells other developers how to use it. Here is a polished, comprehensive version tailored to your project.
-
----
-
-# 📝 LoggerUtil
+# LoggerUtil
 
 **LoggerUtil** is a lightweight, zero-dependency Java logging framework designed for developers who want beautiful console colors and automated file logging without the complexity of Log4j or SLF4J.
 
@@ -126,4 +122,4 @@ Distributed under the Apache License 2.0. See `LICENSE` for more information.
 
 ## 👤 Author
 
-**m4nd3l** - [GitHub]()
+**m4nd3l** - [GitHub](https://m4nd3l.github.io)
