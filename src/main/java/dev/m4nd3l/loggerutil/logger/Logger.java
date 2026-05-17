@@ -81,6 +81,22 @@ public class Logger {
     /** @param message The message to log at FATAL level. @return This instance. */
     public Logger fatal(String message) { log(LoggingLevels.FATAL, message); return this; }
 
+    /** @param message The message to log at TRACE level. @return This instance. */
+    public Logger trace(Object message) { trace(message.toString()); return this; }
+    /** @param message The message to log at DEBUG level. @return This instance. */
+    public Logger debug(Object message) { debug(message.toString()); return this; }
+    /** @param message The message to log at INFO level. @return This instance. */
+    public Logger info(Object message)  { info(message.toString()); return this; }
+    /** @param message The message to log at WARN level. @return This instance. */
+    public Logger warn(Object message)  { warn(message.toString()); return this; }
+    /** @param message The message to log at ERROR level. @return This instance. */
+    public Logger error(Object message) { error(message.toString()); return this; }
+    /** @param message The message to log at FATAL level. @return This instance. */
+    public Logger fatal(Object message) { fatal(message.toString()); return this; }
+
+    /** @param message The message to log at ERROR level. @return This instance. */
+    public Logger error(Exception message) { error(message.toString()); return this; }
+
     /** Resets console colors. @return This instance. */
     public Logger resetColors() { System.out.print(LoggingLevels.RESET.getColorCode()); return this; }
 
