@@ -15,11 +15,11 @@
 
 ## 📦 Installation
 
-Add the following to your `build.gradle` (replace `1.0.0` with the latest version):
+Add the following to your `build.gradle`:
 
 ```gradle
 dependencies {
-    implementation 'io.github.m4nd3l:LoggerUtil:1.0.0'
+    implementation 'io.github.m4nd3l:LoggerUtil:1.0.1'
 }
 
 ```
@@ -30,7 +30,7 @@ Or for Maven `pom.xml`:
 <dependency>
     <groupId>io.github.m4nd3l</groupId>
     <artifactId>LoggerUtil</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 </dependency>
 
 ```
