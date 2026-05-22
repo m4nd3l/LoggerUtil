@@ -81,7 +81,7 @@ public class LoggerUtils {
     public static Logger getLogger(String prefix, LoggerConfiguration configuration) {
         Class<?> callerClass = StackWalker.getInstance(StackWalker.Option.RETAIN_CLASS_REFERENCE)
                 .walk(frames -> frames
-                        .filter(f -> !f.getClassName().equals(Logger.class.getName()))
+                        .skip(1)
                         .findFirst()
                         .map(StackWalker.StackFrame::getDeclaringClass)
                         .orElseThrow());
