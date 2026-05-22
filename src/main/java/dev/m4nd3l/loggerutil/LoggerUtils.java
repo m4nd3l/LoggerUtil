@@ -71,7 +71,7 @@ public class LoggerUtils {
     public static Logger getLogger(LoggerConfiguration configuration) { return getLogger("", configuration); }
 
     /**
-     * Obtains a Logger using the current stack trace to identify the calling class.
+     * Obtains a Logger using the current stack trace to identify the calling class and showing it in logs.
      *
      * @param prefix        The string prefix to prepend to log messages.
      * @param configuration The {@link LoggerConfiguration} to use.
