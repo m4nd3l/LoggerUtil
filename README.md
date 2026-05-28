@@ -19,7 +19,7 @@ Add the following to your `build.gradle`:
 
 ```gradle
 dependencies {
-    implementation 'io.github.m4nd3l:LoggerUtil:1.1.2'
+    implementation 'io.github.m4nd3l:LoggerUtil:1.1.3'
 }
 
 ```
@@ -30,7 +30,7 @@ Or for Maven `pom.xml`:
 <dependency>
     <groupId>io.github.m4nd3l</groupId>
     <artifactId>LoggerUtil</artifactId>
-    <version>1.1.2</version>
+    <version>1.1.3</version>
 </dependency>
 
 ```
